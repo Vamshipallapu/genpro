@@ -9,4 +9,3 @@ setup(
     packages=find_packages(),
 )
 
--e .
