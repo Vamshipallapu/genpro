@@ -1,10 +1,12 @@
-from setuptools import find_packages,setup
+from setuptools import find_packages, setup
 
-setup{
+setup(
     name='mcqgenerator',
-    version='0.0.1'
-    author='Pallapu Vamshi'
-    author_email='vamshipallapuece@gmail.com'
-    install_requires=['openai','streamlit','python-dotenv','PyPDF2'],
-    packages=find_packages()
-}
+    version='0.0.1',
+    author='Pallapu Vamshi',
+    author_email='vamshipallapuece@gmail.com',
+    install_requires=['openai', 'streamlit', 'python-dotenv', 'PyPDF2'],
+    packages=find_packages(),
+)
+
+-e .
